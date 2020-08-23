@@ -57,9 +57,9 @@ function mostPopularVideosForDays(days) {
 
 }
 
-mostPopularVideosForDays(30);
+// mostPopularVideosForDays(30);
 // getProductWithImages();
 // paginateProducts(4);
-// searchByProductName('holo');
+searchByProductName('holo');
 
 console.log('knex and driver installed correctly');
