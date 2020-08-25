@@ -71,7 +71,7 @@ describe('Articles service object', () => {
           expect(allArticles).to.eql(expected)
         })
     })
-    it('updateArticle() updated an article from the blogful_articles table', () => {
+    it('updateArticle() updates an article from the blogful_articles table', () => {
       const idOfArticleToUpdate = 3;
       const newArticleData = {
         title: 'update title',

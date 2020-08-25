@@ -26,5 +26,5 @@ ArticlesService.getAllArticles(knexInstance)
   })
   .then(article => {
     console.log(article)
-    return ArticlesService.deleteArticle(knexInstance, article.di)
+    return ArticlesService.deleteArticle(knexInstance, article.id)
   })
